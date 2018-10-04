@@ -1,0 +1,25 @@
+<behavior-tree>
+    <selector>
+        <sequence>
+            <condition name = "has-target" />
+            <selector>
+                <sequence>
+                    <condition name = "smaller-than-me" />
+                    <selector>
+                        <sequence>
+                            <condition name = "has-food" />
+                            <leaf name = "eat-food" />
+                        </sequence>
+                        <leaf name = "hunt" />
+                    </selector>
+                </sequence>
+                <leaf name = "flee" />
+            </selector>
+        </sequence>
+        <sequence>
+            <condition name = "has-food" />
+            <leaf name = "eat-food" />
+        </sequence>
+        <leaf name = "wander" />
+    </selector>
+</behavior-tree>

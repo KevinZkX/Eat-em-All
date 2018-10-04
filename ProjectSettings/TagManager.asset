@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PathNode
+  - Pipes
+  - Npc
+  - MovingPlatform
+  - FrogNode
+  - Cheese
+  - Leaf
+  - Frog
+  - RabbitNode
+  - MovingCarrot
+  - Wall
+  - Fire
+  - Gas
+  - Rock
+  - Skunk
+  - Ground
+  - Water
+  - Wolf
+  - Image
+  - SpawnPoint
+  - Tiger
+  - Bear
+  - Wood
+  - Key
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Others
+  - Npc
+  - Food
+  - Minimap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
